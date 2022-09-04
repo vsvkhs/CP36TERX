@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: dir-882-a1
+name: dlink_dir-882-a1
 
 on:
   repository_dispatch:
@@ -188,4 +188,3 @@ jobs:
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
